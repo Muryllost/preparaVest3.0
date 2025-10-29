@@ -1,0 +1,9 @@
+[build]
+  base = "PROJECTQUIZ-REACT-MAIN"
+  command = "npm run build"
+  publish = "PROJECTQUIZ-REACT-MAIN/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
